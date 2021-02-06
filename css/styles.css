@@ -1,1 +1,59 @@
-/* styles go here */
+header {
+    background-color: #eff2f7;
+    background: url(../img/small.jpg) center center cover no-repeat;
+    padding: 24px;
+    height: 400px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+aside,
+section {
+    padding: 60px;
+}
+
+aside:first-of-type{
+    background-color: #73a302;
+}
+
+section {
+    background-color: #334839;
+}
+
+aside {
+    background-color: #315002;
+}
+
+@media only screen and (min-width: 950px) {
+    header {
+        height: 500px;
+        background: url(../img/medium.jpg) center center cover no-repeat;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    aside {
+        width: 24%;
+    }    
+
+    section {
+        width: 48%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    header {
+        height: 600px;
+        background: url(../img/plants-large.jpg) center center cover no-repeat;
+    }
+
+    .inner-container {
+        width: 1400px;
+    }
+}
